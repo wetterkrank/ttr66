@@ -1,0 +1,153 @@
+/*
+ Theme Name:   TTR66 theme based on Customify
+ Template:     customify
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+
+/* -------------------------------------------------------------- */
+/* Colors */
+/* -------------------------------------------------------------- */
+
+/* https://coolors.co/c33c54-1f5673-3a3335-faa916-d8d4f2 */
+/* #1f5673 Header main */
+/* #faa916 Header menu bar */
+/* #3a3335 Footer */
+/* #f4f7fc Site BG and post BG  */
+/* #D8D4F2 Feedback form, Shops */
+
+
+/* -------------------------------------------------------------- */
+/* Style overrides */
+/* -------------------------------------------------------------- */
+
+/* #page .site-content {
+	background-color: #f4f7fc !important;
+} */
+
+.wp-block-separator {
+	border-bottom: 1px !important;
+}
+
+/* .widget_recent_entries span.post-date {
+	font-size: 0.875em;
+}  */
+
+/* .sidebar-primary { background: #ffffff; } */
+
+/* .dataTables_wrapper .dataTables_filter input {
+	margin-left: 0px !important;
+	margin-bottom: 5px;
+} */
+.dataTables_wrapper .dt-buttons .dt-button{
+	float: left;
+}
+
+/* -------------------------------------------------------------- */
+/* Brand archive / Product group page */
+/* Theme-controlled settings: width, sidebar, prefix in the title */
+/* -------------------------------------------------------------- */
+
+.ttr66-brands-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+	align-items: baseline;
+}
+
+.ttr66-brand-block {
+    width: 200px;
+	margin: 7px 5px;
+	padding: 10px 5px;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	border: 1px;
+	border-style: dotted;
+	border-color: #88a2aa;
+	border-radius: 5px;
+}
+.ttr66-brand-block:hover .ttr66-brand-name {
+	text-decoration: underline dotted #c33c54;
+}
+.ttr66-brand-name {
+	margin: 5px 0 0 0;
+	text-align: center;
+	line-height: 1;
+}
+	
+/* -------------------------------------------------------------- */
+/* Single brand page */
+/* Theme-controlled settings: width, sidebar, prefix in the title */
+/* -------------------------------------------------------------- */
+
+.ttr66-single-brand-container  {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.ttr66-single-brand-card {
+	padding: 0px 16px 0px 0px;
+	max-width: 300px;
+	/* overflow: auto; */
+}
+.ttr66-single-brand-desc {
+	padding: 5px 0;
+	overflow: hidden;
+}
+.ttr66-single-brand-desc ul {
+	margin-bottom: 0;
+}
+
+.ttr66-single-brand-pricelist {
+	width: 520px;
+}
+
+/* -------------------------------------------------------------- */
+/* Retail shops page */
+/* Theme-controlled settings: width, sidebar, prefix in the title */
+/* -------------------------------------------------------------- */
+
+.ttr66-shop-block {
+	margin: 0px 0px 20px 0px;
+	display: flex;
+	flex-flow: row wrap;
+	align-items: flex-start;
+}
+
+.ttr66-shop-desc {
+	width: 350px;
+	margin: 0px 20px 16px 0px;
+	padding: 10px 10px 10px 15px;
+	background-color: #ADC698;
+	border-radius: 5px;
+}
+
+.ttr66-shop-map {
+}
+
+/* -------------------------------------------------------------- */
+/* Feedback form */
+/* -------------------------------------------------------------- */
+
+div.wpforms-container.wpforms-container-full.ttr66-feedback {
+	padding: 20px;
+	background-color: #ADC698;
+	border-radius: 5px;
+}
+#wpforms-form-4087 {
+	margin-bottom: 10px;
+}
+#wpforms-form-4087 > .wpforms-recaptcha-container {
+	padding: 0px;
+}
+#wpforms-submit-4087.wpforms-submit.ttr66-feedback-button {
+	padding: 5px 15px;
+}
+
