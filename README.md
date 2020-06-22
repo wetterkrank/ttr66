@@ -1,4 +1,4 @@
-#Plugin and theme for ttr66.ru
+# Plugin and theme for ttr66.ru
 
 **customify-ttr66 theme (child theme for Customify) functions**
 - Display category archive pages (custom taxonomy 'Product groups')
